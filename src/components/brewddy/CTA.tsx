@@ -23,7 +23,7 @@ export const CTA = () => {
               Order Now <ArrowRight className="size-4" />
             </span>
           </Button>
-          <Button variant="ghostCream" size="xl">
+          <Button variant="ghostCream" size="xl" onClick={() => window.open("https://maps.app.goo.gl/NGBU92WujyPaAxfb8", "_blank")}>
             <span className="inline-flex items-center gap-2">
               <MapPin className="size-4" /> Find Us
             </span>

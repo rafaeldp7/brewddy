@@ -2,18 +2,18 @@ import { Star } from "lucide-react";
 
 const reviews = [
   {
-    quote: "Vanilla Hazel first thing in the morning? ON TOP. Nothing compares.",
+    quote: "Salted Caramel pa lang natikman ko tol. Panalo! Tikman ko tong iba bukas.",
     author: "Rafael D.P.",
     role: "Vanilla Hazel loyalist",
   },
   {
     quote:
-      "The Arabica is perfectly balanced — not bitter, not too strong. Exactly what a coffee lover needs. Brahma Balls? Solid. Not overly sweet. Will 100% order again.",
+      "Napaka sarap at lasang-lasa talaga yung Arabica na kape perfect para sa tulad kong coffee lover. Ang sarap ng timpla, hindi mapait at hindi sobrang tapang, sakto lang sa panlasa. Thank you so much Brewddy!!",
     author: "Rose L.",
     role: "Self-confessed coffee snob",
   },
   {
-    quote: "One cup and I was energized the entire day. 10/10, no notes.",
+    quote: "grabe yung coffee, bes very effective kapag need mo pagpuyat waaa 10/10. hanggang ngayon ang energy ko jusq",
     author: "Jefferson C.",
     role: "Daily regular",
   },

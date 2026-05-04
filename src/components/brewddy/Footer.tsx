@@ -21,7 +21,7 @@ export const Footer = () => {
           </a>
         </nav>
         <div className="md:text-right text-cream/50 text-sm">
-          <div>Valenzuela, Philippines</div>
+          <div>8th Avenue, Caloocan City, Philippines</div>
           <div className="mt-1">https://www.facebook.com/brewddy</div>
         </div>
       </div>
