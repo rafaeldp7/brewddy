@@ -4,10 +4,11 @@ import { Logo } from "./Logo";
 import { cn } from "@/lib/utils";
 
 const links = [
-  { href: "#menu", label: "Menu" },
-  { href: "#story", label: "Our Story" },
-  { href: "#reviews", label: "Reviews" },
-  { href: "#order", label: "Order" },
+  { href: "/#menu", label: "Menu" },
+  { href: "/#story", label: "Our Story" },
+  { href: "/#reviews", label: "Reviews" },
+  { href: "/#order", label: "Order" },
+  { href: "/about", label: "About" },
 ];
 
 export const Nav = () => {
@@ -42,7 +43,7 @@ export const Nav = () => {
             </a>
           ))}
           <a
-            href="#order"
+            href="/#order"
             className="bg-caramel text-cream px-5 py-2 rounded-full text-sm tracking-wide hover:bg-caramel-glow transition-colors"
           >
             Order Now
