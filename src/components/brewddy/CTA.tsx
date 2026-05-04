@@ -18,16 +18,20 @@ export const CTA = () => {
           Order now or find us near you. Either way — your day's about to get noticeably better.
         </p>
         <div className="mt-12 flex flex-wrap gap-4 justify-center reveal">
-          <Button variant="caramel" size="xl" onClick={() => window.open("https://www.facebook.com/brewddy", "_blank")}>
-            <span className="inline-flex items-center gap-2">
-              Order Now <ArrowRight className="size-4" />
-            </span>
-          </Button>
-          <Button variant="ghostCream" size="xl" onClick={() => window.open("https://maps.app.goo.gl/NGBU92WujyPaAxfb8", "_blank")}>
-            <span className="inline-flex items-center gap-2">
-              <MapPin className="size-4" /> Find Us
-            </span>
-          </Button>
+          <a href="https://www.facebook.com/brewddy" target="_blank" rel="noopener noreferrer">
+            <Button variant="caramel" size="xl">
+              <span className="inline-flex items-center gap-2">
+                Order Now <ArrowRight className="size-4" />
+              </span>
+            </Button>
+          </a>
+          <a href="https://maps.app.goo.gl/NGBU92WujyPaAxfb8" target="_blank" rel="noopener noreferrer">
+            <Button variant="ghostCream" size="xl">
+              <span className="inline-flex items-center gap-2">
+                <MapPin className="size-4" /> Find Us
+              </span>
+            </Button>
+          </a>
         </div>
       </div>
     </section>
