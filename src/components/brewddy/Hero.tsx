@@ -24,7 +24,7 @@ export const Hero = () => {
                 <path id="circle" d="M 100,100 m -75,0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0" />
               </defs>
               <text className="fill-cream/80" style={{ fontSize: "16px", letterSpacing: "6px", fontFamily: "Inter" }}>
-                <textPath href="#circle">CULT FAVORITE ✦ EST. 2025 ✦ </textPath>
+                <textPath href="#circle">PINOY FAVORITE ✦ EST. 2024 ✦ </textPath>
               </text>
             </svg>
           </div>
